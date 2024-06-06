@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+    <body>
+<svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
+  <circle onmouseup="change3()" onmouseover="change(this)" onmousedown="change2()" id="circle" r="45" cx="50" cy="50" fill="blue" />
+</svg> 
+
+    <script>
+        var circleElemente = document.getElementById("circle");
+        function change(ele) {
+            circleElemente.style.fill="red";
+        }
+        function change2(){
+            circleElemente.style.fill="black";
+        }
+        function change3(){
+            alert("ay7aga");
+        }
+
+    </script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number#1</title>
+</head>
+<body>
+    <h1>circle<h1>
+<svg width="100px" hight="100px" xmlns="http://www.w3.org/2000/svg">
+    <circle r="45" cr="50" cy="50" fill="blue" />
+</svg>
+</body>
+</html>-->

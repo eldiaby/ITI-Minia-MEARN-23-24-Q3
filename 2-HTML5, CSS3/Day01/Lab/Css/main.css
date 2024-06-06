@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffeeff;
+}
+
+a:link {
+    background-color: black;
+    color: #ffeeff;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.page {
+    width:1000px;
+    margin: auto;
+}
+
+video {
+    width: 380px;
+    height: 300px;
+}
+
+nav {
+    text-align: center;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+/* 
+nav a {
+    margin-right: 250px;
+} */
+
+.mainpage {
+    width: 750px;
+    margin-bottom: 50px;
+
+}
+
+.ay7aga {
+    display: flex;
+    justify-content: center;
+}
+
+aside a {
+    display: block;
+}
+
+aside {
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}

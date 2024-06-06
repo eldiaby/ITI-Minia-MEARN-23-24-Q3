@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+        <img id="testimg" src="sad.png" width="500px" height="500px" style="display: none;"/>
+        <img id="testimg2" src="smiley.png" width="500px" height="500px" style="display: none;"/>
+    <canvas onload="change3()"  onmouseover="change()" onmouseleave="change2()" id="canvastest" width="500px" height="500px">
+
+    </canvas>
+
+    <script>
+        var img = document.getElementById("canvastest");
+        var test = img.getContext("2d");
+        var img;
+        function change3(){
+        img = document.getElementById("testimg");
+        test.drawImage(img, 10,10);
+        }
+        function change(){
+        img = document.getElementById("testimg2");
+        test.drawImage(img, 10,10);
+        }
+        function change2(){
+        img = document.getElementById("testimg");
+        test.drawImage(img, 10,10);
+        }
+
+
+
+
+
+
+//     function myCanvas() {
+//     var img = document.getElementById("scream");
+//     ctx.drawImage(img,10,10);
+// }
+    </script>
+
+
+</body>
+</html>
