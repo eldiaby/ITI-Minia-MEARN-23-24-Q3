@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>registratin page</title>
+</head>
+<body>
+    <form action="hello.html" method="get">
+        <div>
+            <label for="">User ID</label>
+            <input type="hidden" name="userid" value="1234567891011121314">
+        </div>
+        <div>
+            <label for="fname">First name</label>
+            <input type="text" name="fname" id="fname" required>
+        </div>
+        <div>
+            <label for="lname">Last name</label>
+            <input type="text" name="lname" id="lname" required>
+        </div>
+        <div>
+            <label for="email">Emial</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass">
+        </div>
+        <div>
+            <label for="rpass">Repeat password</label>
+            <input type="password" name="rpass" id="rpass">
+        </div>
+        <div>
+            <label for="birth">Bith Date</label>
+            <input type="date" name="birth" id="birth">
+        </div>
+        <div>
+            <label for="profile-photo">User profile photo</label>
+            <input type="file" name="profile-photo" id="profile-photo" accept="image/png,image/jpeg">
+        </div>
+        <fieldset border="3px solid black">
+            <div>
+                <label for="gender">User gender:</label>
+                <input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female" >female
+            </div>
+        </fieldset>
+        <div>
+            <label for="faculty">User faculty</label>
+            <select name="faculty" id="faculty">
+                <option value="law">law</option>
+                <option value="CS">computer science</option>
+                <option value="engneer">engneering</option>
+                <option value="commerce">commerce</option>
+            </select>
+        </div>
+        <fieldset>
+            <div>
+                <label for="">Intersts:</label><br>
+                <input type="checkbox" name="progrmming" value="progrmming">programming
+                <input type="checkbox" name="reading" value="reading">reading
+                <input type="checkbox" name="swimming" value="swimming">swimming
+            </div>
+        </fieldset>
+        <label for="aboutyou">Tell us about yourself</label>
+        <textarea name="aboutyou" id="aboutyou"></textarea>
+        <div>
+        <input type="checkbox" name="agreed" value="yes" id="agreed" style="display: inline;"> 
+        <label for="agreed">
+            I agreed to 
+                <a target="_blank" href="terms.html">
+                    terms
+                </a>
+                and
+                <a target="_blank" href="condition.html">
+                conditions
+                </a>
+            </label>
+            </div>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+</body>
+</html>
